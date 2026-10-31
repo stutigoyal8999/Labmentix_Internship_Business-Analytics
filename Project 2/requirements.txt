@@ -1,0 +1,13 @@
+# Libraries needed to run the Streamlit app (app.py)
+# Versions are pinned to match the environment the models were trained in.
+streamlit==1.66.1
+pandas==3.1.0
+numpy==2.4.6
+scikit-learn==1.9.1
+xgboost==3.2.0
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+
+# To re-run model training (train.py), also install MLflow:
+#   pip install mlflow

@@ -1,0 +1,54 @@
+{
+  "classifier": {
+    "model": "XGBoost_Classifier",
+    "accuracy": 0.9995,
+    "f1_score": 0.9996,
+    "confusion_matrix": [
+      [
+        18171,
+        9
+      ],
+      [
+        15,
+        31805
+      ]
+    ]
+  },
+  "regressor": {
+    "model": "XGBoost_Regressor",
+    "rmse": 0.9784,
+    "mae": 0.8092,
+    "r2": 0.99998
+  },
+  "all_classifiers": {
+    "Logistic_Regression": {
+      "accuracy": 0.9015,
+      "f1_score": 0.923
+    },
+    "Random_Forest_Classifier": {
+      "accuracy": 0.9986,
+      "f1_score": 0.9989
+    },
+    "XGBoost_Classifier": {
+      "accuracy": 0.9995,
+      "f1_score": 0.9996
+    }
+  },
+  "all_regressors": {
+    "Linear_Regression": {
+      "rmse": 12.5532,
+      "mae": 9.4793,
+      "r2": 0.99654
+    },
+    "Random_Forest_Regressor": {
+      "rmse": 1.2474,
+      "mae": 0.9564,
+      "r2": 0.99997
+    },
+    "XGBoost_Regressor": {
+      "rmse": 0.9784,
+      "mae": 0.8092,
+      "r2": 0.99998
+    }
+  }
+}
