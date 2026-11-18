@@ -5,8 +5,8 @@ SQL, Power BI and Streamlit analysis of Ola ride-booking data (July 2024).
 data/ | notebooks/ | sql/ | powerbi/ | app/
 
 ## Status
-- [ ] Cleaning & EDA
-- [ ] SQL queries
-- [ ] Power BI dashboard
+- [x] Cleaning & EDA
+- [x] SQL queries
+- [x] Power BI dashboard
 - [ ] Streamlit app
 
