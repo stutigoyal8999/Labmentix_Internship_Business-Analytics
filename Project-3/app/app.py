@@ -31,7 +31,7 @@ POWERBI_EMBED_URL = ""
 # (tab title, screenshot file name, caption)
 DASHBOARD_PAGES = [
     ("Overall", "Overall.png", "Booking status split, KPIs and trends"),
-    ("Vehicle Type", "Vehicle_type.png", "Performance by vehicle type"),
+    ("Vehicle Type", "Vehicle_Type.png", "Performance by vehicle type"),
     ("Revenue", "Revenue.png", "Revenue by payment method and day"),
     ("Cancellation", "Cancellation.png", "Customer and driver cancellation reasons"),
     ("Ratings", "Ratings.png", "Customer and driver rating analysis"),
